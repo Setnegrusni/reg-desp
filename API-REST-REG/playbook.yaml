@@ -1,0 +1,9 @@
+---
+- name: Despliegue de la API REST en Minikube
+  hosts: all
+  tasks:
+    - name: Crear el despliegue y el servicio de Kubernetes
+      k8s:
+        src: deploy.yaml
+        state: present
+
