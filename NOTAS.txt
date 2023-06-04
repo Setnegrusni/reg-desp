@@ -1,0 +1,8 @@
+En la carpeta "api-original" se encuentran los archivos de configuración
+necesarios para contenerizar el api-rest.php, los cuales fueron usados para
+luego subir la imagen a Docker hub usada en la práctica, la cual lleva por
+nombre "kengut/api-rest-reg:latest".
+
+En la carpeta "API-REST-REG" se encuentran los archivos de configuración 
+necesarios para realizar el despliegue al clúster de minikube haciendo uso de
+ansible y el módulo "k8s".
